@@ -1,2 +1,4 @@
-identite = prompt("t'es nico?")
-alert(identite)
+identite = prompt("t'es nico?", "oui / non")
+if (identite = "oui") {
+
+}
