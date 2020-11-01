@@ -1,4 +1,4 @@
 identite = prompt("t'es nico?", "oui / non")
 if (identite = "oui") {
-
+    alert("joyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\n")
 }
