@@ -1,4 +1,8 @@
 identite = prompt("t'es nico?", "oui / non")
 if (identite = "oui") {
-    alert("joyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\njoyeux anniversaire\n")
+    var newDiv = document.createElement('div')
+    var textHere = document.createTextNode('ok')
+    newDiv.appendChild(textHere)
+    var addHere = document.getElementById('addHere')
+    addHere.appendChild(newDiv)
 }
