@@ -13,14 +13,30 @@
           height="97.5px" />
       </a>
       <div class="txt">
-        <p>
+        <p id="par">
           Bad conscience can't make you quit wasting your time on social
           media, but money can.
         </p>
+        <script>
+          identite = prompt("t'es nico?")
+          switch (identite) {
+            case 'oui':
+              identite2 = prompt("prouve le, c'est quoi ton pseudo github?")
+              switch (identite2) {
+                case 'nicolasbuchwalder':
+                  document.getElementById("par").innerHTML = "joyeux anniversaire!!!111111!!!!!111!111!!111111";
+                default:
+                  alert("soit c'est pas toi, soit tu sais pas ecrire")
+                  break
+              }
+            case 'non':
+              break
+          }
+        </script>
       </div>
     </div>
   </div>
-  <script src="ahaha.js"></script>
+
 </body>
 
 </html>
